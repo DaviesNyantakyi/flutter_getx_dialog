@@ -24,11 +24,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   title: "Welcome to Flutter Agency",
                   middleText:
                       "We are the best Flutter App Development Company!",
-                  titleStyle: const TextStyle(color: Colors.black),
+                  titleStyle:
+                      const TextStyle(color: Colors.black, fontSize: 18),
                   content: Container(
-                    color: Colors.red,
-                    width: 100,
-                    height: 100,
+                    color: Colors.black,
+                    margin: const EdgeInsets.symmetric(horizontal: 16),
+                    child: const Text(
+                      '"We are the best Flutter App Development Company!',
+                      style: TextStyle(color: Colors.white),
+                    ),
                   ),
                   middleTextStyle: const TextStyle(color: Colors.black),
                   contentPadding: const EdgeInsets.all(0),
